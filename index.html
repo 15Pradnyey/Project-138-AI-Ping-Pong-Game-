@@ -17,11 +17,31 @@
     <body>
         <center>
             <div class="btn btn-danger header">
-                <h1>AI Mario Game</h1>
+                <h1>AI Ping-Pong Game</h1>
                 <button data-toggle="modal" data-target="#mymodal" id="instructions" class="btn btn-warning">Instructions</button>
               </div>
               <br>
               <button class="btn btn-success" id="play">Play</button>
+              <br>
+              <button id="restart" onclick="restart()" class="btn btn-danger">Restart</button>
+              <div id="footer">
+                <h3>Developed by •Pradnyey•</h2>
+              </div>
+              <div id="mymodal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Instructions</h2>
+                      <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="jump.png" class="instruction_image">
+                      <img src="left.png" class="instruction_image">
+                      <img src="right.png" class="instruction_image">
+                  </div>
+                </div>
+              </div>
+              </div> 
         </center>
         <script src="main.js"></script>
     </body>

@@ -19,12 +19,29 @@
 
 
 #play{
-    margin-top: 40px;
+    margin-top: 20px;
     font-weight:bolder;
     font-size:larger;
     width: 90px;
 }
 
 canvas{
-    margin-top: 4px;
+    margin-top: 40px;
+}
+
+#footer{
+    width: 100%;
+    bottom: 0px;
+    font-size: larger;
+    background-color: aliceblue;
+    color:cornflowerblue;
+}
+
+#restart{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
